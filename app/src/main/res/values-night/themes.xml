@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <!-- Warna latar belakang -->
+        <item name="android:windowBackground">@color/darkBackground</item>
+
+        <!-- Warna teks utama -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Warna teks secondary -->
+        <item name="android:textColorSecondary">@color/darkGray</item>
+
+        <!-- Warna aksen -->
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+</resources>
